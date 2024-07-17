@@ -31,4 +31,4 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Git e Github
 - Figma
 
-## 💻 Projeto
+## 💻 Projeto Janaína
