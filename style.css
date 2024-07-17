@@ -1,7 +1,7 @@
 * {
-  Margin: 0;
-  Padding: 0;
-  Box-sizing: border-box
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
@@ -17,7 +17,7 @@
 .light {
   --text-color: black;
   --bg-url: url(./Assets/bg-mobile-light.jpg);
-  --stroke-color: rgba(255, 255, 255, 0.5); 
+  --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
   --lighlight-color: rgba(255, 255, 255, 0.1);
@@ -25,7 +25,7 @@
 }
 
 body {
-   background: var(--bg-url) no-repeat top center/cover;
+  background: var(--bg-url) no-repeat top center/cover;
 }
 
 body * {
@@ -34,14 +34,15 @@ body * {
 }
 
 #container {
-  width: 360px;
+  width: 100%;
+  max-width: 588px;
   margin: 56px auto 0px;
-  Padding: 0 24px;
+  padding: 0 24px;
 }
 
 #profile {
   text-align: center;
-  Padding: 24px;
+  padding: 24px;
 }
 
 #profile img {
@@ -51,13 +52,13 @@ body * {
 #profile p {
   font-weight: 500;
   line-height: 24px;
-  Margin-top: 8px
+  margin-top: 8px;
 }
 
 /* links */
 ul {
   list-style: none;
-  
+
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -66,7 +67,7 @@ ul {
 }
 
 ul li a {
-  display:  flex;
+  display: flex;
   align-items: center;
   justify-content: center;
 
@@ -78,10 +79,10 @@ ul li a {
 
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
-  
+
   text-decoration: none;
   font-weight: 500;
-  
+
   transition: background 0.5s;
 }
 
@@ -122,21 +123,20 @@ footer {
 }
 
 * {
-  Margin: 0;
-  Padding: 0;
-  Box-sizing: border-box
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 #container {
   width: 360px;
-  margin: 56px auto 0px auto
-  Padding 0 24px;
+  margin: 56px auto 0px auto Padding 0 24px;
 }
 
 /* profile */
 #profile {
   text-align: center;
-  Padding: 24px;
+  padding: 24px;
 }
 
 #profile img {
@@ -146,7 +146,7 @@ footer {
 #profile p {
   font-weight: 500;
   line-height: 24px;
-  Margin-top: 8px
+  margin-top: 8px;
 }
 
 /* switch */
@@ -161,8 +161,7 @@ footer {
 #switch button {
   width: 32px;
   height: 32px;
-  background: white var(--switch-bg-url) no-repeat
-  center;
+  background: white var(--switch-bg-url) no-repeat center;
   border: 0;
   border-radius: 50%;
 
@@ -186,13 +185,13 @@ footer {
   border: 1px solid var(--stroke-color);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
-  border-radius: 9999px
+  border-radius: 9999px;
 }
 
 /* links */
 ul {
   list-style: none;
-  
+
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -201,22 +200,22 @@ ul {
 }
 
 ul li a {
-  display:  flex;
+  display: flex;
   align-items: center;
   justify-content: center;
 
   padding: 12px 24px;
 
-  background: var(--surface-color); 
+  background: var(--surface-color);
   border: 1px solid var(--stroke-color);
   border-radius: 8px;
 
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
-  
+
   text-decoration: none;
   font-weight: 500;
-  
+
   transition: background 0.2s;
 }
 
