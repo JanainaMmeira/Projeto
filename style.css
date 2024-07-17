@@ -129,8 +129,10 @@ footer {
 }
 
 #container {
-  width: 360px;
-  margin: 56px auto 0px auto Padding 0 24px;
+  width: 100%;
+  max-width: 588px;
+  margin: 56px auto 0px auto 
+  Padding 0 24px;
 }
 
 /* profile */
